@@ -2,8 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # LMS Parameters
-N = 500
-mu = 0.05
+N = 100
+mu = 0.1
 filter_order = 5
 
 # Signals
@@ -27,7 +27,7 @@ for n in range(filter_order, N):
 plt.figure(figsize=(12, 6))
 
 plt.subplot(2, 1, 1)
-plt.plot(10 * np.log10(e**2 + 1e-10))
+plt.plot(e**2)
 plt.title('LMS Error Convergence (dB)')
 plt.xlabel('Iteration')
 plt.ylabel('Error (dB)')
