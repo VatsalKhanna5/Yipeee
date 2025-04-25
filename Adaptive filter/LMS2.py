@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # System parameters
-np.random.seed(0)
+np.random.seed(42)
 filter_order = 4  # Match this with the true system order
 mu = 0.01
 num_samples = 500
