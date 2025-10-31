@@ -1,0 +1,118 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+venv*/
+env*/
+venv-*/
+env-*/
+
+# Dependency / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+wheels/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Type checkers / caches
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Django / Flask / local settings
+*.sqlite3
+db.sqlite3
+local_settings.py
+instance/
+.webassets-cache
+
+# Environment files / secrets
+.env
+.env.*
+secrets.yml
+credentials/
+*.pem
+*.key
+
+# Logs
+logs/
+*.log
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Backup / temp files
+*~
+*.swp
+.*.swp
+*.tmp
+*.temp
+*.bak
+
+# C extensions / compiled files
+*.so
+*.dylib
+*.dll
+
+# Distribution / build artifacts
+dist/
+build/
+*.egg
+*.egg-info/
+pip-wheel-metadata/
+
+# Misc
+coverage_html_report/
+coverage_html/
+tags
